@@ -3,6 +3,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+body {
+    background-image: url("photos/background.jpg");
+    background-size: cover;
+}
 h1 {
     font-family: fantasy;
     font-size: 3em;
@@ -17,7 +21,8 @@ img {
     object-fit: contain;
     max-width: 100%;
     transition: all 1s;
+    animation-direction: alternate;
 }
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
